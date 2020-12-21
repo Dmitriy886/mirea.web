@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7.13</title>
+    <style>
+        body {
+            color: #fff;
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+        }
+        .content {
+            padding: 10px 20px;
+            margin: auto;
+            width: 400px;
+            background: #000000;
+            border-radius: 10px;
+        } 
+        .pg {
+            border: solid 1px #fff;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+        .tooltip {
+            position: fixed;
+            padding: 10px 20px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+            text-align: center;
+            color: #ffffff;
+            background:  rgba(0, 0, 0, 0.9);
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+        }
+    </style>
+</head>
+<body>
+    <div class="content" id="elem">
+       <p class="pg" data-tooltip="Подсказка #1">Элемент 1</p>
+       <p class="pg" data-tooltip="Подсказка #2">Элемент 2</p>
+    </div>
+    <script src="start.js"></script>
+</body>
+</html>

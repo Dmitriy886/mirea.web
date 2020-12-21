@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7.15</title>
+    <style>
+        body {
+            color: #fff;
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+        }
+        .content {
+            padding: 10px 20px;
+            margin: auto;
+            width: 550px;
+            background: #000000;
+        } 
+        #largeImg {
+            max-width: 100%;
+            max-height: 100%;
+            padding: 5px;
+        }
+
+        #thumbs a {
+            width: 100px;
+            height: 100px;
+            padding: 3px;
+            margin: 2px;
+            float: left;
+        }
+
+        #thumbs a:hover {
+            border-color: #FF9900;
+        }
+
+        #thumbs li {
+            list-style: none;
+        }
+
+        #thumbs {
+            margin: 0;
+            padding: 0;
+        }
+        a img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="content" id="contents">
+        
+        <p><img id="largeImg" src="https://dtmag.com/wp-content/uploads/2019/10/shorediving-2-1050x700.jpg" alt="Large image"></p>
+
+        <ul id="thumbs">
+          <li>
+            <a href="https://dtmag.com/wp-content/uploads/2019/10/shorediving-2-1050x700.jpg" title="Image 2"><img src="https://dtmag.com/wp-content/uploads/2019/10/shorediving-2-1050x700.jpg"></a>
+          </li>
+          <li>
+            <a href="https://www.thechaoticscot.com/wp-content/uploads/2019/11/West-Coast-Waters-0939-1050x700.jpg" title="Image 3"><img src="https://www.thechaoticscot.com/wp-content/uploads/2019/11/West-Coast-Waters-0939-1050x700.jpg"></a>
+          </li>
+          <li>
+            <a href="https://cdn.houseofcoco.net/uploads/2020/02/BC1C4E41-783A-4010-BF7F-E6105D6BC14B-1050x700.jpeg" title="Image 4"><img src="https://cdn.houseofcoco.net/uploads/2020/02/BC1C4E41-783A-4010-BF7F-E6105D6BC14B-1050x700.jpeg"></a>
+          </li>
+          <li>
+            <a href="https://cdn.wallpapersafari.com/15/99/0FjLK5.jpg" title="Image 5"><img src="https://cdn.wallpapersafari.com/15/99/0FjLK5.jpg"></a>
+          </li>
+          <li>
+            <a href="https://www.wallpapertip.com/wmimgs/95-953710_brown-sea-turtle-cute-images-hawksbill-sea-turtle.png" title="Image 6"><img src="https://www.wallpapertip.com/wmimgs/95-953710_brown-sea-turtle-cute-images-hawksbill-sea-turtle.png"></a>
+          </li>
+        </ul>
+    </div>
+    <script src="start.js"></script>
+</body>
+</html>
